@@ -1,6 +1,6 @@
 <?php
 
-namespace Factory\FactoryUrl;
+namespace Factory;
 
 
 interface InterfaceFactory

@@ -1,5 +1,8 @@
 <?php
-namespace   Factory
+namespace Factory;
+
+
+
 
 class Demo
 {
@@ -8,9 +11,9 @@ class Demo
 
    	private const QD = "https://www.qidian.com";
 
-    	private const TD = "https://www.tadu.com/store/103-a-0-5-a-20-p-1-98";
+   	private const TD = "https://www.tadu.com/store/103-a-0-5-a-20-p-1-98";
 
-    	private const WY = "https://b.faloo.com/Re_45_1.html";
+   	private const WY = "https://b.faloo.com/Re_45_1.html";
 
 	public static function getCollectF($url){
         		switch ($url){
@@ -35,7 +38,8 @@ class Demo
 
             		case self::WY:
 
-                			$obj = new D();
+//                			$obj = new ();
+                        $obj =  111;
 
                 		break;
 

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Factory\FactoryUrl;
+namespace Factory;
 
 
 class M implements InterfaceFactory

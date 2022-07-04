@@ -1,7 +1,6 @@
 <?php
 
-
-namespace Factory\FactoryUrl;
+namespace Factory;
 
 
 use QL\QueryList;
@@ -10,6 +9,7 @@ class B implements InterfaceFactory
 {
     public  function getCollectI($url)
     {
+
         // TODO: Implement getUrl() method.
 
         $xh_link = QueryList::get($url);
