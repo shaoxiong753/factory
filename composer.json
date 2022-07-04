@@ -1,0 +1,23 @@
+{
+    "name": "shaoxiong/factory",
+    "description": "4",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Factory\\": "src/"
+        }
+    },
+    "homepage": "https://github.com/factory",
+    "authors": [
+        {
+            "name": "hsxaizy123",
+            "email": "1610544084@qq.com",
+            "homepage": "https://github.com/factory"
+        }
+    ],
+    "minimum-stability": "dev"
+}
