@@ -10,7 +10,7 @@ class M implements InterfaceFactory
     {
         // TODO: Implement getCollectI() method.
 
-        return "请求错误";
+        return "只能请求指定的网址";
 
     }
 }

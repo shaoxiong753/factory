@@ -38,14 +38,14 @@ class Demo
 
             		case self::WY:
 
-//                			$obj = new ();
-                        $obj =  111;
+                			$obj = new D();
+
 
                 		break;
 
             		default:
 
-                		return  new M();
+                			$obj =  new M();
         }
         return $obj;
     }
